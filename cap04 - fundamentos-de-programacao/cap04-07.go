@@ -34,7 +34,7 @@ func main() {
 func linha(char string) {
 	linha := ""
 	for i := 0; i < 64; i++ {
-		linha = linha + char
+		linha += char
 	}
 	fmt.Println(linha)
 }
