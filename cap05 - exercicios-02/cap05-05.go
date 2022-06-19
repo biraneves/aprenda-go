@@ -4,7 +4,8 @@ import "fmt"
 
 func main() {
 
-	s := "Raw string literal"
+	s := `"Raw 
+		string\nliteral"`
 	fmt.Println(s)
 
 }
