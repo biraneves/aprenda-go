@@ -10,12 +10,23 @@ func main() {
 
 		for minutos := 0; minutos < 60; minutos++ {
 			
-			fmt.Print(" ", minutos)
+			fmt.Print(minutos, " ")
 
 		}
 
 		fmt.Println("")
+		linha("-")
 
 	}
+
+}
+
+func linha(char string) {
+
+	linha := ""
+	for i := 0; i < 64; i++ {
+		linha += char
+	}
+	fmt.Println(linha)
 
 }
